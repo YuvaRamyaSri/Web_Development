@@ -1,0 +1,26 @@
+*{
+	/*border:0px;
+	margin:0px;
+	padding:0px;*/
+	box-sizing:border-box;
+}
+#container{
+	font-family:"Permanent Marker", cursive;
+	text-align:center;
+}
+
+.cell{
+	width:75px;
+	height:75px;
+	font-size:50px;
+	line-height: 75px;
+	border:2px solid ;
+	box-shadow: 0 0 0 2px;
+	cursor: pointer;
+}
+#cellContainer{
+	display:grid;
+	grid-template-columns: repeat(3, auto);
+	width:225px;
+	margin:auto;
+}
